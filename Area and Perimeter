@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+int main()
+{
+    float l,b,r,a1,a2,p1,p2;
+    printf("Enter the length of rectangle: ");
+    scanf("%f",&l);
+    printf("Enter the breadth of rectangle: ");
+    scanf("%f",&b);
+    printf("Enter the radius of circle: ");
+    scanf("%f",&r);
+
+    a1=l*b;
+    p1=2*(l+b);
+    a2=3.14*r*r;
+    p2=2*3.14*r;
+
+    printf("Area of rectange: %f\nPerimeter of rectangle: %f\nArea of Circle: %f\nPerimeter of Circle: %f",a1,p1,a2,p2);
+    return 0;
+
+
+
+}
